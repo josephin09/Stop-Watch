@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './App.css'; // Import the CSS file
+import './App.css'; 
 
 const Stopwatch = () => {
   const [isRunning, setIsRunning] = useState(false);
@@ -63,4 +63,5 @@ const App = () => {
 };
 
 export default App;
+
 
